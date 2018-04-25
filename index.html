@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>ToDoList</title>
+   <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <div id="myDIV" class="header">
+      <h2>TODO List</h2>
+      <p class="num" id="unfinishNum">未完成數量：0</p>
+      <p class="num" id="finishNum">完成數量：0</p>
+      <input type="text" id="NewList" placeholder="List Title">
+      <button onclick="newList()" class="addBtn" id="addButton">Add</button>
+   </div>
+
+   <ul id="myUL">
+   </ul>
+   <script src="custom.js"></script>
+</body>
+</html>
